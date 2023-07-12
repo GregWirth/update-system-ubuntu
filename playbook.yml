@@ -14,4 +14,3 @@
     - name: Install base packages
       apt: name={{ item }} update_cache=yes state=latest
       loop: ['curl', 'logwatch', 'whois', 'htop', 'btop']
-# tags: [ system ]
