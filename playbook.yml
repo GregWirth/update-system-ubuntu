@@ -1,6 +1,6 @@
 ---
 - name: Update and upgrade packages
-  hosts: all
+  hosts: 127.0.0.1
   become: true
   tasks:
     - name: Run apt update
