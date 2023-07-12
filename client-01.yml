@@ -13,4 +13,4 @@
 # Update apt cache again and install
     - name: Install base packages
       apt: name={{ item }} update_cache=yes state=latest
-      loop: ['curl', 'logwatch', 'whois', 'htop', 'btop']
+      loop: ['git', 'curl', 'logwatch', 'whois', 'htop', 'btop']
